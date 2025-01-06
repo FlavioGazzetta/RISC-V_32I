@@ -246,7 +246,9 @@ The memory array represents a byte-addressable memory space with 2^17 locations,
 At startup, memory is initialized with data from an external file (data.hex), starting at address 0x10000.
 
 the reason why it is 2^17 bits is because the memory is allocated in the following way:
+
 <img src="Pipeline/images/Memory_allocation.png" width="250" height="450" alt="Memory">
+
 
 Write Logic:
 
